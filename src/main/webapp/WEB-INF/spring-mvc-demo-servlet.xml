@@ -24,6 +24,10 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
+	<!-- Step 6: Add resource config-->
+	<mvc:resources mapping="/resources/**" location="/resources/"/>
+
+
 </beans>
 
 
